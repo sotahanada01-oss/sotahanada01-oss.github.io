@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #222;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+.fv {
+    height: 50vh;
+    background: #111;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.logo {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin-bottom: 16px;
+    opacity: 0.9;
+    font-size: 50px;
+}
+
+.fv h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+    
+}
+
+.lead {
+    font-size: 30px;
+    opacity: 0.8;
+}
+section {
+    padding: 80px 0;
+
+}
+
+section h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 32px;
+
+}
+
+.info-box {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.info-box ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+.info-box li {
+    margin-bottom: 12px;
+    line-height: 1.8;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin:  24px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff4f00;
+    color: white;
+    padding: 14px 32px;
+    border-radius: 32px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+@media (max-width: 768px) {
+    .fv h1 {
+        font-size: 32px;
+    }
+
+    section h2{
+        font-size: 24px;
+
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+}
+.section {
+    max-width: 500px;
+    margin: 0 auto;
+}
