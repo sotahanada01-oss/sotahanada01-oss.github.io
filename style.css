@@ -30,18 +30,36 @@ body {
   padding: 40px 20px;
 }
 
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
 .card {
   display: block;
-  padding: 24px;
+  padding: 30px;
   background: #1b1b1b;
-  border-radius: 12px;
-  text-align: center;
+  border-radius: 14px;
   text-decoration: none;
   color: #fff;
-  transition: all 0.2s ease;
+  transition: all 0.25s ease;
+  border: 1px solid #2a2a2a;
 }
 
+.card h2 {
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+}
+
+.card p {
+  color: #aaa;
+  font-size: 0.95rem;
+}
+  
 .card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-8px);
   background: #ff4d00;
+  border-color: #ff4d00;
 }
