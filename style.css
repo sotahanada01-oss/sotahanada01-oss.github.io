@@ -121,13 +121,13 @@ footer {
   
 }
 
-.dark-mode {
-  background: #2d2d2d;
+.light-mode {
+  background: #f5f5f5;
   color: #111;
 }
 
-.dark-mode .card {
-  background: #ffffff00;
+.light-mode .card {
+  background: #ffffff;
   color: #111;
 }
   
