@@ -47,12 +47,13 @@ body {
 .card {
   display: block;
   padding: 30px;
-  background: #1b1b1b;
-  border-radius: 14px;
+  background: #1e1e2f;
+  border-radius: 16px;
   text-decoration: none;
   color: #fff;
-  transition: all 0.25s ease;
+  transition: transform 0.3 ease, box-shadow 0.3s ease, background 0.3s ease;
   border: 1px solid #2a2a2a;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
 .card h2 {
@@ -66,9 +67,9 @@ body {
 }
   
 .card:hover {
-  transform: translateY(-8px);
-  background: #ff4d00;
-  border-color: #ff4d00;
+  transform: translateY(-10px) scale(1.02);
+  background: #252542;
+  box-shadow: 0 20px 50px rgba(255,100,0,0.35);
 }
 
 .about {
