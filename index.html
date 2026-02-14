@@ -11,6 +11,7 @@
   <header class="hero">
     <h1>PrimeStage</h1>
     <p>Where Ideas Take the Stage.</p>
+    <button id="themeToggle">Toggle Theme</button>
   </header>
 
   <section class="grid fade-in">
@@ -60,4 +61,10 @@
     <p>©️ 2026 花田　創太　｜　PrimeStage</p>
   </footer>
 </body>
+  <script>
+    const toggle = document.getElementById("themeToggle");
+    toggle.addEventListener("click", () => {
+      document.body.classList.toggle("light-mode");
+    });
+  </script>
 </html>
